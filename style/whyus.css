@@ -1,0 +1,54 @@
+.whyus {
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.whyus-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  text-align: center;
+
+
+}
+
+.whyus-title {
+    font-size: 48px;
+}
+
+.whyus-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+
+}
+
+.whyus-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 45px 45px;
+    transition-duration: 0.7s;
+    
+}
+
+.whyus-subtitle {}
+
+.whyus-desc {
+    max-width: 250px;
+    color: #6c757d;
+    
+}
+
+
+.whyus-card img {
+    width: 100px
+}
+
+.whyus-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

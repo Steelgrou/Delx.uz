@@ -1,0 +1,87 @@
+.entrance-section {
+    margin-top: 150px;
+}
+
+.entrance-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.entrance-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.entrance-title {
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+
+.entrance-subtitle {
+    color: white;
+    max-width: 470px;
+    line-height: 30px;
+}
+
+/* Entrance-button */
+.entrance-btn {
+    display: flex;
+    gap: 25px;
+}
+
+.entrance-left__btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    cursor: pointer;
+
+}
+
+.entrance-left__btn:hover {
+    background: inherit;
+    border: 1px solid white;
+
+
+}
+
+.entrance-right__btn {
+    background-color: white;
+    color: #28a745;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.entrance-right__btn a {
+    color: #28a745;
+}
+
+.entrance-left__btn a {
+    color: white;
+}
+
+.entrance-right img {
+    max-width: 450px;
+    
+    animation: jump 1s ease infinite alternate;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
