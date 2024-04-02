@@ -56,23 +56,3 @@ padding-bottom: 120px;
     transform: translateY(-10%);
 
 }
-
-.business-wrapper__left img {
-    max-width: 450px;
-
-    animation: business 1s ease alternate;
-}
-
-@keyframes business {
-    0% {
-        transform: translateX(-150%);
-    }
-
-
-
-    100% {
-        transform: translateX(0%);
-    }
-}
-
-

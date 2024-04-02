@@ -1,5 +1,6 @@
 .entrance-section {
-    margin-top: 150px;
+    padding: 150px 0px;
+    background: linear-gradient(135deg, #5533ff, #25ddf5);
 }
 
 .entrance-wrapper {
