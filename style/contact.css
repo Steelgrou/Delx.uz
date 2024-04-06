@@ -1,0 +1,21 @@
+.contact {}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-text {text-align: center;}
+
+.contact-img img {
+    width: 450px;
+}
+
+.contact-img{
+  background-image: url(/img/contact_img.svg);
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 550px;
+}

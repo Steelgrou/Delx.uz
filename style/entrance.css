@@ -86,3 +86,34 @@
         transform: translateY(-20px);
     }
 }
+
+/* Responsive */
+@media screen and (max-width: 400px) {
+   
+    .entrance-wrapper {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .entrance-left {
+    }
+    .entrance-title {font-size: 20px;
+        font-weight: 700;
+    }
+    .entrance-subtitle {
+        
+    }
+    .entrance-btn {
+    }
+    .entrance-left__btn {
+    }
+    .entrance-right__btn {
+    }
+    .entrance-right {
+        padding-top: 100px;
+        height: 40vh
+        
+    }
+    .entrance-right__img {
+        width: 350px;
+    }
+ }

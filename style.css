@@ -169,3 +169,22 @@ a .header-phone {
 .lang-menu:hover ul {
     display: block;
 }
+
+
+/* Responsive */
+@media screen and (max-width: 400px) {
+   
+   .header-wrapper {
+    justify-content: space-between;
+    
+   }
+    nav {
+    display: none;
+   }
+   .header-phone {
+    display: none;
+   }
+   .lang-menu {
+    display: none;
+   }
+}
